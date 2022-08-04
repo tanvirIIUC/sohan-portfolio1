@@ -28,7 +28,9 @@ body{
 .main{
     background-color: rgb(217, 223, 223);
 }
-
+.mble{
+    display: none;
+}
 
 @media screen and (max-width: 567px) {
     .left-nav{
@@ -38,4 +40,12 @@ body{
     .main{
         text-align: center;
     } 
+    .mble{
+        display: block;
+    }
+    .mble-list ul{
+        list-style: none;
+    }
+   
+    
 }
