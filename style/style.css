@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    height: 100%; 
+
+}
+.abc{
+    height: 100%;
+}
+
+.left-nav{
+    background-color: antiquewhite;
+    
+}
+.left-nav ul{
+   list-style: none;
+    
+}
+.main{
+    background-color: azure;
+}
