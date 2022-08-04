@@ -1,14 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Poppins&family=Square+Peg&display=swap');
+
 body{
     margin: 0;
     height: 100%; 
-
+   
 }
-.abc{
-    height: 100%;
+.name{
+    font-family: 'Square Peg', cursive;
+    
 }
-
+.index-height{
+    height: 100vh;
+}
+.nav-link{
+    margin-top: 100px;
+    font-family: 'Poppins', sans-serif;
+}
 .left-nav{
-    background-color: antiquewhite;
+    background-color: rgb(253, 252, 250);
     
 }
 .left-nav ul{
@@ -16,5 +26,16 @@ body{
     
 }
 .main{
-    background-color: azure;
+    background-color: rgb(217, 223, 223);
+}
+
+
+@media screen and (max-width: 567px) {
+    .left-nav{
+        display: none;
+        
+    } 
+    .main{
+        text-align: center;
+    } 
 }
