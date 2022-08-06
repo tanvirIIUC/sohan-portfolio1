@@ -32,6 +32,13 @@ body{
     display: none;
 }
 
+.project-card:hover{
+    background-color: rgb(172, 170, 170);
+    color: rgb(5, 5, 5);
+    transform: scale(1.1);
+
+}
+
 @media screen and (max-width: 567px) {
     .left-nav{
         display: none;
