@@ -38,6 +38,9 @@ body{
     transform: scale(1.1);
 
 }
+.project-page-nav{
+      display: fixed;
+}
 
 @media screen and (max-width: 567px) {
     .left-nav{
